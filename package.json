@@ -1,0 +1,9 @@
+{
+	"dependencies": {
+		"tailwindcss": "^4.1.17",
+		"@tailwindcss/cli": "^4.1.17"
+	},
+	"scripts": {
+		"tw-watch": "npx @tailwindcss/cli -i ./room-homepage-master/input.css -o ./room-homepage-master/output.css --watch"
+	}
+}

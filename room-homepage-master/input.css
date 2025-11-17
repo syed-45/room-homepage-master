@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+    --color-room-grey-500: hsl(0, 0%, 63%);
+    --color-room-grey-800: hsl(0, 0%, 27%);
+}
+
+.league-spartan-room-font {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
