@@ -4,6 +4,8 @@
 		"@tailwindcss/cli": "^4.1.17"
 	},
 	"scripts": {
-		"tw-watch": "npx @tailwindcss/cli -i ./room-homepage-master/input.css -o ./room-homepage-master/output.css --watch"
+		"dev" : "pnpm run start & pnpm run tw-watch", 
+		"tw-watch": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+		"start": "http-server src/"
 	}
 }

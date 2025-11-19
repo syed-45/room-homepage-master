@@ -3,6 +3,7 @@
 @theme {
     --color-room-grey-500: hsl(0, 0%, 63%);
     --color-room-grey-800: hsl(0, 0%, 27%);
+    --breakpoint-lg2: 1128px;
 }
 
 .league-spartan-room-font {
